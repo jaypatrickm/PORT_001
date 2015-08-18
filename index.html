@@ -3,60 +3,106 @@
 <head>
 	<!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta charset="UTF-8">
-	<title>Jaypatrick Manalansan : Portfolio -- HOME</title>
+	<title>Jaypatrick Manalansan : Portfolio -- Home</title>
 </head>
 <body>
-	<section>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
+	<nav role="navigation" class="cyan accent-4">
+		<div class="nav-wrapper container">
+			<a href="index.html" class="brand-logo">JM</a>
+			<ul class="right hide-on-med-and-down">
 				<li><a href="work.html">Work</a></li>
 				<li><a href="create.html">Create</a></li>
 				<li><a href="journey.html">Journey</a></li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
-		</nav>
-		<header>
-			<h1>Jaypatrick Manalansan</h1>
-			<h2>Full Stack Developer</h2>
-			<p>A recent graduate of the Coding Dojo in Seattle, WA, where I learned LAMP, MEAN, and Ruby on Rails. I am continuing to refine my coding skills in these stacks. I am a former front end coder for Insteo a digital signage company in Long Beach, CA.</p>
-			<p>The following is a view of my coding journey from my start at the Art Institute of Orange County, CA, my work as a front end coder, and my latest work as a student of the Coding Dojo in Seattle, WA.</p>
-			<p>It contains an award winning project, organized and commented code, numerous project iterations, finished and unfinished work, some leftover code, growth as a developer, REST and CRUD techniques, JQuery plugins, CodeIgniter 3, Ruby on Rails, MEAN stack, LAMP stack, Bootstrap and more!</p>
-		</header>
-		<main>
-			<ul>
-				<li>
-					<a href="work.html">Work</a>
-					<p>A collection of the work I accomplished. These are unedited since the last time I touched the projects and may not display the final working versions.</p>
-				</li>
-				<li>
-					<a href="create.html">Create</a>
-					<p>A collection of the projects I accomplished as a student at the Coding Dojo and the Art Institute.</p>
-				</li>
-			</ul>
-		</main>
-		<footer>
-			<ul>
-				<li><a href="index.html">Home</a></li>
+			<ul class="side-nav" id="nav-mobile">
 				<li><a href="work.html">Work</a></li>
 				<li><a href="create.html">Create</a></li>
 				<li><a href="journey.html">Journey</a></li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
-			<ul>
-				<li><a href="https://www.linkedin.com/in/jaypatrickm" target="_blank">LinkedIn</a></li>
-				<li><a href="https://github.com/jaypatrickm" target="_blank">Github</a></li>
-				<li>Jay Manalansan</a>
-				<li>© 2015</li>
-			</ul>
-		</footer>
-	</section>
+			<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+		</div>
+	</nav>
+	<header>
+		<div class="row">
+			<div class="col s12 m8 offset-m2 l6 offset-l3">
+		        <div class="row valign-wrapper">
+		            <div class="col s4 offset-s4 m2 offset-m5">
+		            	<br>
+		            	<br>
+			            <img src="images/ME.jpg" alt="Jay Manalansan" class="circle responsive-img">
+		            </div>
+		        </div>
+				<div class="row">
+		            <div class="col s12 l12 center-align">
+			            <h5 class="header center black-text">
+			                "Hi! I'm Jaypatrick Manalansan a Full Stack Web Developer."
+			            </h5>
+			        </div>
+			    </div>
+				<p>A recent graduate of the Coding Dojo in Seattle, WA, where I learned LAMP, MEAN, and Ruby on Rails. I am continuing to refine my coding skills in these stacks. I am a former front end coder for Insteo a digital signage company in Long Beach, CA.</p>
+				<p>The following is a view of my coding journey from my start at the Art Institute of Orange County, CA, my work as a front end coder, and my latest work as a student of the Coding Dojo in Seattle, WA.</p>
+				<p>It contains an award winning project, organized and commented code, numerous project iterations, finished and unfinished work, some leftover code, growth as a developer, REST and CRUD techniques, jQuery plugins, CodeIgniter 3, Ruby on Rails, MEAN stack, LAMP stack, Bootstrap and more!</p>
+		    </div>
+		</div>
+	</header>
+	<main>
+		<div class="row">
+			<div class="col s12 m4 offset-m2 l3 offset-l3">
+				<div class="icon-block center-align">
+					<h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+					<h5 class="center">A Resourceful Coder</h5>
+
+					<p class="light">A collection of the work I accomplished at Insteo. These are unedited since the last time I touched the projects and may not display the final working versions.</p>
+					<a class="btn-large" href="work.html">Work</a>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l3">
+				<div class="icon-block center-align">
+					<h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+					<h5 class="center">A Great Team Player</h5>
+
+					<p class="light">A collection of the projects I accomplished as a student at the Coding Dojo and the Art Institute.</p>
+					<a class="btn-large" href="create.html">Create</a>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="page-footer light-blue accent-3">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Thanks for visiting!</h5>
+					<p class="grey-text text-lighten-4">You can take a look at more of my code on my <a href="https://github.com/jaypatrickm" target="_blank">Github</a> and here is a link to my <a href="https://www.linkedin.com/in/jaypatrickm" target="_blank">LinkedIn</a>.</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="white-text">Jaypatrick Manalansan</h5>
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+						<li><a class="grey-text text-lighten-3" href="work.html">Work</a></li>
+						<li><a class="grey-text text-lighten-3" href="create.html">Create</a></li>
+						<li><a class="grey-text text-lighten-3" href="journey.html">Journey</a></li>
+						<li><a class="grey-text text-lighten-3" href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				© 2015 Jay Manalansan
+			</div>
+		</div>
+    </footer>
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/js-init.js"></script>
 </body>
 </html>
