@@ -1,1 +1,8 @@
 /**** styles for jm portfolio 2015 - July ****/
+a:hover {
+	text-decoration: underline;
+}
+
+blockquote {
+	border-left-color: #8bc34a;
+}
